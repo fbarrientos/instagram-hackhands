@@ -24,7 +24,7 @@ angular.module('Instagram', ['ngRoute', 'ngMessages', 'satellizer'])
     $authProvider.oauth2({
       name: 'instagram',
       url: 'http://instagram-server0.herokuapp.com/auth/instagram',
-      redirectUri: 'https://dl.dropboxusercontent.com/u/14131013/instagram/index.html',
+      redirectUri: 'https://www.dropbox.com/s/ba3eh5g67lt6hyf/index.html?dl=0',
       clientId: '2c714e2078614248a273cecb2526cb3d',
       requiredUrlParams: ['scope'],
       scope: ['likes'],
